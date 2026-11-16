@@ -1,5 +1,8 @@
-/*
-*/
+/**
+ * Author: Christian A. Montoya
+ * date: November 16, 2026
+ * course: CPE-2600: Systems Programming
+ */
 
 #include <stdio.h>
 #include <stdlib.h>

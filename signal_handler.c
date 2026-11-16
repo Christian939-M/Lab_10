@@ -1,6 +1,9 @@
 /**
  * @file signal_handler.c
  * @brief Sets a signal handler for SIGINT, the handler prints a message and returns without exiting
+ * Author: Christian A. Montoya
+ * date: November 16, 2026
+ * course: CPE-2600: Systems Programming
  */
 /**
  * Modified by: Christian A. Montoya

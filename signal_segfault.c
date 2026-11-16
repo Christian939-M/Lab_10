@@ -1,6 +1,11 @@
 /**
  * @file signal_segfault.c
  * @brief Program that dereferences a null pointer causing a segmentation fault and catches it with a signal handler
+ * Author: Christian A. Montoya
+ * date: November 16, 2026
+ * course: CPE-2600: Systems Programming
+ */
+
  */
 /**
  * Modified by: Christian A. Montoya
