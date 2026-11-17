@@ -6,7 +6,6 @@
  * course: CPE-2600: Systems Programming
  */
 
- */
 /**
  * Modified by: Christian A. Montoya
  * Brief summary of modifications: Added a SIGSEGV signal handler to catch the segmentation fault caused by dereferencing a NULL pointer and print a receipt message.

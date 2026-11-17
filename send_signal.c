@@ -17,7 +17,6 @@ int main(int argc, char* argv[]) {
 
     pid_t target_pid = atoi(argv[1]);
 
-    // Seed the random number generator[cite: 5]
     srand(time(NULL));
     int rand_num = rand() % 100; // Random number between 0 and 99
 
@@ -26,7 +25,6 @@ int main(int argc, char* argv[]) {
 
     printf("Sending SIGUSR1 to PID %d with random value: %d\n", target_pid, rand_num);
 
-    // Send signal with data using sigqueue
     if (sigqueue(target_pid, SIGUSR1, value) == -1) {
         perror("sigqueue failed");
         return 1;
